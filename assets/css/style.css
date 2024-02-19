@@ -42,3 +42,23 @@ nav, header li{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.section1 h1{
+    margin-top: 40px;
+    margin-bottom:15px;
+    color: #171717;
+    font-family: "BPG Mrgvlovani", sans-serif;
+
+}
+.section1 p{
+    width: 30%;
+    font-family: "ArchyEDT-Thin", sans-serif;
+    font-size: 16px;
+}
+.section img{
+    max-width: 707px;
+    width: 40%;
+}
+section p, img{
+    display: inline-block;
+    margin-bottom: 50px;
+}
