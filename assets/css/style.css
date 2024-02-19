@@ -8,4 +8,37 @@ header, header a, header ul{
     text-decoration: none;
     color: white;
     list-style: none;
+    font-family: "BPG Mrgvlovani", sans-serif;
+    font-size: 16px;
+}
+.aborder a{
+    border-radius: 28px;
+    background-color: white;
+    color: #171717;
+}
+.logo{
+    max-width: 115px;
+    width: 20%;
+    vertical-align: middle;
+    padding: 20px;
+}
+nav, header li{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+.small img{
+    max-width: 707px;
+    width: 85%;
+    padding-left: 30px;
+}
+.big img{
+    max-width: 948px;
+    width: 100%;
+}
+.small,.big{
+    display: inline-block;
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
