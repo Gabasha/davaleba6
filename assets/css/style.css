@@ -1,3 +1,11 @@
-{
-    background-color: blue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, header a, header ul{
+    background-color: #0020F4;
+    text-decoration: none;
+    color: white;
+    list-style: none;
 }
