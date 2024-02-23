@@ -11,10 +11,23 @@ header, header a, header ul{
     font-family: "BPG Mrgvlovani", sans-serif;
     font-size: 16px;
 }
-.aborder a{
-    border-radius: 28px;
-    background-color: white;
-    color: #171717;
+button{
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    color: red;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+button:hover{
+    background-color: gray;
+    border: 2px solid black;
 }
 .logo{
     max-width: 115px;
@@ -99,14 +112,22 @@ nav, header li{
 .article3 p{
     color: #171717;
     font-family: "BPG Mrgvlovani", sans-serif;
-    background-color: rgba(240, 248, 255,0,5);
+    background-color: grey;
     padding: 10px;
     border-radius: 20px;
     position: absolute;
     bottom: 0px;
     width: 20%;
-
+    opacity: 0;
+    color: white;
 }
+.article3:hover p{
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
 .article3{
     display: inline-block;
     width: 20%;
@@ -115,7 +136,42 @@ nav, header li{
 .section3{
     position: relative;
 }
-
+.slider{
+    background-image: url(../images/Rectangle\ 1.png);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    animation-name: slider;
+    animation: slider 10s infinite alternate;
+    position: relative;
+}
+.slider a{
+    opacity: 0;
+}
+.slider:hover a{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+@keyframes slider{
+    0%{
+        background-image: url(../images/Rectangle\ 1.png);
+    }
+    50%{
+        background-image: url(../images/Rectangle\ 18.png);
+    }
+    100%{
+        background-image: url(../images/Rectangle\ 19.png);
+    }
+}
 
 
 
